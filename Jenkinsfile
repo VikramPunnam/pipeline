@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ("zip"){
       steps {
-        sh label: '', script: 'sh /var/lib/jenkins/workspace/class.sh'
+        sh label: '', script: 'sh /home/ec2-user/file.sh'
       }
     }
   }
